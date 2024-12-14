@@ -11,6 +11,7 @@ Scikit-Learn – For metrics such as accuracy, precision, recall, F1-score, etc.
 Matplotlib – For visualizing data and results.
 OpenCV – For image processing tasks.
 NumPy – For numerical operations and data handling.
+Seaborn - For creating advanced statistical visualizations and enhancing Matplotlib plots
 
 To install these dependencies, use the following pip commands:
 
@@ -28,6 +29,10 @@ pip install opencv-python
 
 # Install NumPy 
 pip install numpy
+
+#Install Seaborn
+pip install seaborn
+
 
 3. Hardware Requirements:
 GPU (Optional but highly recommended) – To accelerate model training, you can use a CUDA-enabled GPU. This can significantly speed up training times.
