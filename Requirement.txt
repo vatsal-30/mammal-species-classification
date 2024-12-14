@@ -1,0 +1,35 @@
+Requirements to Run Your Python Code (Libraries, etc.)
+
+1. Jupyter Notebook (Optional but recommended for interactive execution)
+Jupyter Notebook provides an interactive environment for running and visualizing Python code. It allows you to run each code cell and see the results immediately.
+
+2. To run the provided Python code, you need to install the following libraries:
+
+PyTorch – For deep learning tasks, including neural network models, optimizers, and loss functions.
+TorchVision – For pre-trained models and image transformations.
+Scikit-Learn – For metrics such as accuracy, precision, recall, F1-score, etc.
+Matplotlib – For visualizing data and results.
+OpenCV – For image processing tasks.
+NumPy – For numerical operations and data handling.
+
+To install these dependencies, use the following pip commands:
+
+# Install PyTorch
+pip install torch torchvision
+
+# Install scikit-learn 
+pip install scikit-learn
+
+# Install Matplotlib for plotting
+pip install matplotlib
+
+# Install OpenCV 
+pip install opencv-python
+
+# Install NumPy 
+pip install numpy
+
+3. Hardware Requirements:
+GPU (Optional but highly recommended) – To accelerate model training, you can use a CUDA-enabled GPU. This can significantly speed up training times.
+If a GPU is not available, PyTorch will automatically fall back to using the CPU.
+
